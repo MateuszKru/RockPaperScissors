@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RockPaperScissors
+namespace RockPaperScissors.Utils.Enums
 {
-     public class Elements
+    public enum ResultEnum
     {
-       public string[] elements = { "Rock", "Paper", "Scissors" };
-
-       
+        Draw = 0,
+        HumanWin = 1,
+        ComputerWin = 2,
     }
 }
